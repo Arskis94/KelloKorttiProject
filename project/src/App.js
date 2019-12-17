@@ -9,7 +9,7 @@ const App = () => {
     // if there is an active user, render the user Dashboard
     return (
       <div>
-        <UserDashboard activeUserData={activeUserData} />
+        <UserDashBoard activeUserData={activeUserData} />
       </div>
     );
   } else {
