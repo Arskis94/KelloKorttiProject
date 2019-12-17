@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import UserDashboard from "./components/UserDashboard.js";
+import UserDashBoard from "./components/UserDashBoard.js";
 import LogInScreen from "./components/LogInScreen.js";
 
 const App = () => {
