@@ -39,7 +39,7 @@ End with an example of getting some data out of the system or using it for a lit
 - **Isa Hänninen** - [IsaEmilia](https://github.com/IsaEmilia)
 - **Thomas Hillebrink** - [Thomas](https://github.com/ThomasHillebrink)
 - **Tuukka Heinonen** - [Tukkis](https://github.com/Tukkis)
-- **Toni Nieminen** - [N.A](https://github.com/tounsa)
+- **Toni Nieminen** - [tounsa](https://github.com/tounsa)
 
 See also the list of [contributors](https://github.com/Arskis94/KelloKorttiProject/graphs/contributors) who participated in this project.
 
