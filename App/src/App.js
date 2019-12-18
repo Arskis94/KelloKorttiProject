@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import UserDashBoard from "./components/UserDashBoard.js";
 import LogInScreen from "./components/LogInScreen.js";
+import AdminDashBoard from "./components/AdminDashBoard.js";
 
 const App = () => {
-  const [activeUserData, setActiveUserData] = useState(undefined); // initialize the page with an empty user state
+  const [activeUserData, setActiveUserData] = useState({isActive: true}); // initialize the page with an empty user state ( isActive: true for testing purposes)
 
   if (activeUserData.isAdmin === true) {
     // if user is an Admin, render the AdminDashBoard
@@ -15,7 +16,7 @@ const App = () => {
         />
       </div>
     );
-    } else if (activeUserData) {
+    } else if (activeUserData.isActive) {
       // if user is active, but not an admin, render the UserDashBoard
       return (
         <div>
