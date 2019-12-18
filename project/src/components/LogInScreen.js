@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LogInScreen = () => {
+const LogInScreen = ({activeUserData, setActiveUserData}) => {
 
     return (
         <div>

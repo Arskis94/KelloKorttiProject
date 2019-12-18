@@ -1,6 +1,6 @@
 import React from 'react';
 
-const UserDashBoard = () => {
+const UserDashBoard = ({activeUserData}) => {
 
     return (
         <div>
