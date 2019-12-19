@@ -23,7 +23,7 @@ const UserDashBoard = ({activeUserData}) => {
         <div className="calendar">
             calendar
         </div>
-        <PieChart />
+        <PieChart activeUserData={activeUserData} />
         <div className="calenderWeek">
             weekview from calendar
         </div>

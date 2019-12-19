@@ -1,10 +1,9 @@
 import React, { useEffect } from 'react';
 import $ from "jquery";
 
-const PieChart = () => {
+const PieChart = ({activeUserData}) => {
 
-// change the value below from 100 to whichever percentage you want
-// change value data from user_database
+
 
 useEffect(() => {
     
@@ -32,12 +31,12 @@ useEffect(() => {
         if (curr < end) {
           setTimeout(function() {
             circle($el, end, ++i);
-          }, 1);
+          }, 0.5);
         }
       }
-      circle($("#attendanceCircle"), 75);
+      circle($("#attendanceCircle"), 75); // change the number here to a variable indicating attendance percentage I.E."activeUserData.AttendancePercentage"
 
-},[]);
+},[]); // place the variable inside the array here as well
 
     return(
         <div className="piechartArea">
