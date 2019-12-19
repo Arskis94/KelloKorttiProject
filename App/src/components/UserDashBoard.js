@@ -1,4 +1,5 @@
 import React from 'react';
+import PieChart from "./PieChart"
 
 const UserDashBoard = ({activeUserData}) => {
 
@@ -22,20 +23,7 @@ const UserDashBoard = ({activeUserData}) => {
         <div className="calendar">
             calendar
         </div>
-        <div className="piechartArea">
-
-            <div className="circleWrapper">
-
-                <div id="attendanceCircle" className="circle">
-                    <div className="innerCircle">
-                        <div className="circleStat">0%</div>
-                        <div className="attendance">Attendance</div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
+        <PieChart />
         <div className="calenderWeek">
             weekview from calendar
         </div>
