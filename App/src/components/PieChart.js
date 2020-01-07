@@ -18,14 +18,14 @@ useEffect(() => {
             "background-image",
             "linear-gradient(" +
               (90 + i) +
-              "deg, transparent 50%, rgb(255, 170, 0) 50%),linear-gradient(90deg, rgb(255, 170, 0) 50%, transparent 50%)"
+              "deg, transparent 50%, rgb(252, 190, 66) 50%),linear-gradient(90deg, rgb(252, 190, 66) 50%, transparent 50%)"
           );
         } else {
           $el.css(
             "background-image",
             "linear-gradient(" +
               (i - 90) +
-              "deg, transparent 50%, rgb(0, 136, 152) 50%),linear-gradient(90deg, rgb(255, 170, 0) 50%, transparent 50%)"
+              "deg, transparent 50%, rgb(0, 136, 152) 50%),linear-gradient(90deg, rgb(252, 190, 66) 50%, transparent 50%)"
           );
         }
         if (curr < end) {
